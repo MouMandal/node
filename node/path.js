@@ -1,0 +1,10 @@
+const path = require('path');
+const a1 = path.basename('C:\\temp\\myfile.html');
+console.log(a1);
+// console.log(process.env.PATH);
+// process.env.PATH.split(path.delimiter);
+const a2 = path.dirname('C:\\temp\\myfile.html');
+console.log(a2);
+const a3 = path.extname(__filename);
+console.log(__filename);
+console.log(a3);
